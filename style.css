@@ -54,7 +54,7 @@ header p{
   margin-top: 20px;
   text-align: center;
   padding: 10px;
-  background-color: hsl(300, 43%, 80%);
+  background-color: hsl(300, 43%, 95%);
   border-radius: 10px;
   width: 100%;
 }
@@ -114,8 +114,16 @@ header p{
 
 
 @media only screen and ( min-width : 376px ) {
-  .star{ 
-    max-width: 400px;}
+  .stars-container{
+    width: 400px;
+    margin: 0 auto;
+    }
+  .star{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    gap: 10px;
+  }
   .left{
   align-self : flex-start;}
   .right {
